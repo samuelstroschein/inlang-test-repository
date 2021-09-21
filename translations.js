@@ -16,7 +16,86 @@ import { Inlang } from 'inlang';
 /**
  * Contains translations.
  */
-export const translations = {};
+export const translations = {
+  "Learn": {
+    "de": "Lerne",
+    "es": "Aprende",
+    "fr": "Apprendre",
+    "nl": "Leer"
+  },
+  "Deploy": {
+    "de": "Bereitstellen",
+    "es": "Despliega",
+    "fr": "Déployer",
+    "nl": "Zet  in."
+  },
+  "Examples": {
+    "de": "Beispiele",
+    "es": "Ejemplos",
+    "fr": "Exemples",
+    "nl": "Voorbeelden"
+  },
+  "language": {
+    "de": "Sprache",
+    "es": "idioma",
+    "fr": "langue",
+    "nl": "taal"
+  },
+  "Powered by": {
+    "de": "Angetrieben von",
+    "es": "Desarrollado por",
+    "fr": "Powered by",
+    "nl": "Aangedreven door"
+  },
+  "Documentation": {
+    "de": "Dokumentation",
+    "es": "Documentación",
+    "fr": "Documentation",
+    "nl": "Documentatie"
+  },
+  "Create Next App": {
+    "de": "Nächste App erstellen",
+    "es": "Crear la siguiente aplicación",
+    "fr": "Créer la prochaine application",
+    "nl": "Maak de volgende app"
+  },
+  "Welcome to Next.js!": {
+    "de": "Willkommen bei Next.js!",
+    "es": "Bienvenido a Next.js!",
+    "fr": "Bienvenue sur Next.js !",
+    "nl": "Welkom bij Next.js!"
+  },
+  "Get started by editing": {
+    "de": "Beginne mit der Bearbeitung",
+    "es": "Empieza por editar",
+    "fr": "Get started by editing",
+    "nl": "Ga aan de slag met het bewerken van"
+  },
+  "Discover and deploy boilerplate example Next.js projects.": {
+    "de": "Entdecke Next.js-Beispielprojekte und setze sie ein.",
+    "es": "Descubre y despliega proyectos de ejemplo de Next.js.",
+    "fr": "Découvre et déploie des exemples de projets Next.js.",
+    "nl": "Ontdek en implementeer boilerplate voorbeeld Next.js projecten."
+  },
+  "Find in-depth information about Next.js features and API.": {
+    "de": "Hier findest du ausführliche Informationen über die Funktionen und die API von Next.js.",
+    "es": "Encuentra información detallada sobre las características y la API de Next.js.",
+    "fr": "Trouve des informations approfondies sur les fonctionnalités et l'API de Next.js.",
+    "nl": "Vind diepgaande informatie over Next.js functies en API."
+  },
+  "Learn about Next.js in an interactive course with quizzes!": {
+    "de": "Lerne Next.js in einem interaktiven Kurs mit Quizzes kennen!",
+    "es": "Aprende sobre Next.js en un curso interactivo con cuestionarios!",
+    "fr": "Apprends à connaître Next.js dans un cours interactif avec des quiz !",
+    "nl": "Leer meer over Next.js in een interactieve cursus met quizzen!"
+  },
+  "Instantly deploy your Next.js site to a public URL with Vercel.": {
+    "de": "Mit Vercel kannst du deine Next.js-Website sofort auf einer öffentlichen URL bereitstellen.",
+    "es": "Despliega instantáneamente tu sitio Next.js en una URL pública con Vercel.",
+    "fr": "Déploie instantanément ton site Next.js vers une URL publique avec Vercel.",
+    "nl": "Implementeer je Next.js site onmiddellijk naar een publieke URL met Vercel."
+  }
+};
 
 /**
  * Use for fine grained inlang setup.
