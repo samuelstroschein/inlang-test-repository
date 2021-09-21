@@ -16,7 +16,11 @@ import { Inlang } from 'inlang';
 /**
  * Contains translations.
  */
-export const translations = {};
+export const translations = {
+  "Create Next App": {
+    "de": "Nächste App erstellen"
+  }
+};
 
 /**
  * Use for fine grained inlang setup.
