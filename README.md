@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Inlang Demo
+
+> :warning: inlang is a proof of concept and must not be used in production. It's in very early stage. Please give feedback in this [GitHub repository](https://github.com/samuelstroschein/inlang/discussions).
 
 ## Getting Started
 
-First, run the development server:
+### 1. Use this template
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Inlang is tightly bundled with your repository *(not the right approach from us? [Give feedback](https://github.com/samuelstroschein/inlang/discussions))*. Therefore, you have to create a repository to test inlang. The easiest way is to use this repo as template.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![alt text](/public/use_this_template.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### 2. Create a new project in [inlang](https://app.inlang.dev)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+With the following config: 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- project root path: empty.
+- default locale: "en" 
+- translation locales : "fr", "nl", "de", "da", "es"
 
-## Learn More
+### 3. Let the magic begin
+1. run from the command line: 
+> `npm install`
 
-To learn more about Next.js, take a look at the following resources:
+2. start the project server
+> `npm run dev`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Refresh the inlang dashboard. Et voila, missing translations contains stuff you have to translate!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Commit your translations (top left corner)
 
-## Deploy on Vercel
+5. Git Pull in your repository (to get the latest translations)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. Done. You now have a multilingual app. Nice :) 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+----
+
+Inlang is work in progress. [How can we improve the proof of concept?](https://github.com/samuelstroschein/inlang/discussions).
