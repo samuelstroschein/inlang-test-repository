@@ -32,6 +32,15 @@ export const translations = {
   "Documentation": {
     "de": "Dokumentation"
   },
+  "Create Next App": {
+    "de": "Nächste App erstellen"
+  },
+  "Welcome to Next.js!": {
+    "de": "Willkommen bei Next.js!"
+  },
+  "Get started by editing": {
+    "de": "Beginne mit der Bearbeitung"
+  },
   "Discover and deploy boilerplate example Next.js projects.": {
     "de": "Entdecke Next.js-Beispielprojekte und setze sie ein."
   },
