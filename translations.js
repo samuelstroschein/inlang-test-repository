@@ -26,14 +26,14 @@ export const translations = {
   "Examples": {
     "de": "Beispiele"
   },
+  "language": {
+    "de": "Sprache"
+  },
   "Powered by": {
     "de": "Angetrieben von"
   },
   "Documentation": {
     "de": "Dokumentation"
-  },
-  "Create Next App": {
-    "de": "Nächste App erstellen"
   },
   "Welcome to Next.js!": {
     "de": "Willkommen bei Next.js!"
