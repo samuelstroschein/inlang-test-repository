@@ -35,13 +35,27 @@ export const inlangConfig = {
   "defaultLocale": "en"
 };
 
+/**
+ * Private inlang object used for the t() function. 
+ */
 let inlang;
+
+export function setLocale(locale){
+	if (inlang === undefined) {
+		inlang = new Inlang({
+			projectConfig: inlangConfig,
+			translations: translations,
+			locale: locale
+		});
+	} else {
+		inlang.locale = locale
+	}
+}
 
 /**
  * Auto-configuration inlang object which can be used directly to translate text.
  *
- * Only works in a browser environment as document.documentElement
- * is used to derive the current language of the website.
+ * Use 'setLocale()' to set the locale which t() uses. 
  *
  * @returns translated text (if exists)
  */
@@ -50,9 +64,8 @@ export function t(text, args) {
 		inlang = new Inlang({
 			projectConfig: inlangConfig,
 			translations: translations,
-			locale: document.documentElement.lang
+			locale: inlangConfig.defaultLocale
 		});
 	}
-	inlang.locale = document.documentElement.lang;
 	return inlang.translate(text, args);
 }
