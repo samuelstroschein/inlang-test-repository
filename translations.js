@@ -16,7 +16,16 @@ import { Inlang } from 'inlang';
 /**
  * Contains translations.
  */
-export const translations = {};
+export const translations = {
+  "Powered by": {
+    "de": "Angetrieben von",
+    "fr": "Powered by"
+  },
+  "Welcome to Next.js!": {
+    "de": "Willkommen bei Next.js!",
+    "fr": "Bienvenue sur Next.js !"
+  }
+};
 
 /**
  * Use for fine grained inlang setup.
